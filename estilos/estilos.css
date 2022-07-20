@@ -25,31 +25,19 @@ body {
   background-color: rgba(168, 57, 57, 0.226);
 }
 
-.color_navbar{
-  background-color: rgba(74, 74, 230);
-}
-
-.boton_navbar{
-  background-color: rgba(121, 20, 141, 0.548);
-
-}
-
 .transparencia2{
   background-color: rgba(78, 78, 74, 0.849);
 }
 
 .na:hover{
-  background-color: #08080823;
+  background-color: #08080823 ; 
 
 }
 
-
 .btn-bd-primary {
-  
-
   --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
-  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%) !important};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%) !important} !important; !important
   --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
   --bs-btn-active-color: var(--bs-btn-hover-color);
   --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
@@ -62,8 +50,6 @@ body {
 
 .fondo_error{
   background-image: url(/img/fondo.jpeg)  ;
- 
-
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -93,6 +79,11 @@ text-decoration: none;
   height: 100%;
 }
 
-.footer{
-background-color: black !important:
+.galeriasss {
+  margin-top: 70px;}
+
+
+.contacto{
+
+  margin-top: 90px;
 }
