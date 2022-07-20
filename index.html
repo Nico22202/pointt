@@ -7,57 +7,57 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
         crossorigin="anonymous">
   <link rel="stylesheet" href="/estilos/estilos.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Odibee+Sans&family=Roboto+Slab:wght@800&family=Tiro+Bangla:ital@1&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Odibee+Sans&family=Roboto+Slab:wght@800&family=Tiro+Bangla:ital@1&display=swap" rel="stylesheet">
   <title>TP indumentaria</title>
 </head>
 <body class="">
   <!-- empieza NAVBAR  -->
-  <nav class="navbar navbar-expand-lg color_navbar py-2 sticky-top">
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark  fixed-top">
     <div class="container-fluid">
       <img class="m-auto" src="/img/sinfondo.png" width="50" height="50" alt="logo">
       <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav  ms-auto mb-1 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="dropdown-toggle btn btn-primary m-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="na dropdown-toggle btn  btn-outline-light btn-bd-primary  text-light m-2 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Catálogo
             </a>
-            <ul class="na dropdown-menu color_navbar" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item text-light" href="/bootstrap/galeriaA.html">Abrigos</a></li>
+            <ul class=" dropdown-menu bg-dark na " aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-light " href="/bootstrap/galeriaA.html">Abrigos</a></li>
               <li><a class="dropdown-item text-light" href="/bootstrap/galeriaC.html">Camisas</a></li>
               <li><a class="dropdown-item text-light" href="/bootstrap/galeriaP.html">Pantalones</a></li>
             </ul>
           </li>
           <li class="nav-item m-2">
-            <a class="btn btn-primary text-light" aria-current="page" href="/Formulario/contacto.html">Contacto</a>
+            <a class="btn btn-outline-light text-light na" aria-current="page" href="/Formulario/contacto.html">Contacto</a>
           </li>
           <li class="nav-item m-2">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-bd-primary btn-outline-light  text-light na" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Suscripcion
             </button>
           </li>  
           <li class="nav-item m-2">
-            <a class=" btn btn-primary text-light" href="/bootstrap/acercadenosotros.html">Nosotros</a>
+            <a class="na btn btn-outline-light bt text-light " href="/bootstrap/acercadenosotros.html">Nosotros</a>
           </li>
           <li class="nav-item m-2">
-            <a class="btn btn-primary text-light" aria-current="page" href="/login.html">Login</a>
+            <a class="btn btn-outline-light text-light na" aria-current="page" href="/login.html">Login</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   
-    <!-- Modal -->
+    <!-- Modal suscripcion-->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="bg-secondary modal-content">
           <div class="modal-header">
             <h5 class="modal-title text-light" id="exampleModalLabel">Suscribite y enterate de todas las novedades que tenemos para vos ⚡💣🔥</h5>
-            <button type="button" class="ms-4 btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="ms-4 btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <form>
@@ -115,70 +115,73 @@
      <main>
        <div class="container mt-4">
         <div class="row">
-          <div class="col-12 col-lg-6 justify-content-center">
-            <h2 class="my-4 text-center text-light">Lo nuevo de esta temporada!</h2>
+          <div class="col-12  col-lg-6 justify-content-center">
+            <h2 class="my-4 text-center text-light fs-2">Lo nuevo de esta temporada!</h2>
 
-            <div class="kar card mb-3" style="max-width: 540px;">
+            <div class="kar card mb-3 " >
               <div class="row g-0 justify-content-center">
                 <div class="col-10  col-md-4">
-                  <img class="img-fluid col-12 justify-content-center py-3 h-100" src="/img/parka.jpeg" alt="...">
+                  <img class="img-fluid col-12 justify-content-center py-3 h-100" src="/img/parka-sf.png" alt="...">
                 </div>
                 <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Parkas</h5>
-                    <p class="card-text">Interior forrado con corderito Capucha desmontable con corderito. Bolsillos interiores y exteriores, ordón de ajuste interior con terminal</p>
+                  <div class="card-body text-light">
+                    <h5 class="card-title text-start fw-bold fs-4 ">Parkas </h5>
+                    <p class="card-text ">Interior forrado con corderito Capucha desmontable con corderito. Bolsillos interiores y exteriores, ordón de ajuste interior con terminal</p>
                     <br>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <p class="card-text text-end"><a class="btn btn-outline-light"  href="parkas.html"> Ver más</a></p>
+                    <p class="card-text"><small class="text-muted fst-italic">Last updated 3 mins ago</small></p>
+                    <br><br><br>
+                    <p class="card-text text-end"><a class="btn btn-outline-light "  href="parkas.html"> Ver más</a></p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="kar card mb-3" style="max-width: 540px;">
+            <div class="kar card mb-3" >
               <div class="row g-0 justify-content-center">
                 <div class="col-10 col-md-4">
-                  <img src="/img/inflable.webp" class="img-fluid col-12 py-3 justify-content-center h-100" alt="...">
+                  <img src="/img/inflable4-sf.png" class="rounded img-fluid col-12 py-3 justify-content-center h-100" alt="...">
                 </div>
                 <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Camperas inflables</h5>
+                  <div class="card-body text-light">
+                    <h5 class="card-title text-start fw-bold  fs-4">Camperas inflables</h5>
                     <p class="card-text"> TELA EXTERIOR E INTERIOR: Ultralight Cireé. Tejido ultraliviano con repelencia al agua. Poliéster 100%. RELLENO: Eco Down. Microfibra hueca de alta retención térmica. Ultraliviana. Poliéster 100%. DESCRIPCIÓN: Puños elastizados. Bolsillos con cierres..</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <p class="card-text text-end"><a class="btn btn-outline-light"  href="Camperas.html"> Ver más</a></p>
+                    <p class="card-text"><small class="text-muted fst-italic">Last updated 3 mins ago</small></p>
+                    <br><br><br>
+                    <p class="card-text text-end "><a class="btn btn-outline-light"  href="Camperas.html"> Ver más</a></p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="kar card mb-3" style="max-width: 540px;">
+            <div class="kar card mb-3" >
               <div class="row g-0 justify-content-center">
                 <div class="col-10 col-md-4">
-                  <img src="/img/buff.jpeg" class="img-fluid py-3 col-12 justify-content-center h-100" alt="...">
+                  <img src="/img/buf2-sf.png" class=" rounded img-fluid py-3 col-12 justify-content-center h-100 " alt="...">
                 </div>
                 <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Bufandas</h5>
-                    <p class="card-text">Nuestra Bufanda Clásica renovada con diseño bicolor, única por su trama. Hílado 100% Acrílico.
+                  <div class="card-body text-light">
+                    <h5 class="card-title text-start fw-bold  fs-4">Bufandas</h5>
+                    <p class="card-text ">Nuestra Bufanda Clásica renovada con diseño bicolor, única por su trama. Hílado 100% Acrílico.
                       Medidas aproximadas: Ancho 22 cm. Largo 194 cm. (flecos inclusive)..</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <p class="card-text text-end"><a class="btn btn-outline-light"  href="bufandas.html"> Ver más</a></p>
+                    <p class="card-text"><small class="text-muted fst-italic">Last updated 3 mins ago</small></p>
+                    <br><br><br><br> 
+                    <p class="card-text text-end"><a class="btn btn-outline-light "  href="bufandas.html"> Ver más</a></p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <nav aria-label="Page navigation example">
+              <nav aria-label="Page navigation example ">
                 <ul class="pagination justify-content-center">
-                  <li class="page-item disabled">
-                    <a class="page-link">Previous</a>
+                  <li class="page-item disabled ">
+                    <a class="page-link text-light bg-dark border border-dark">Previous</a>
                   </li>
-                  <li class="page-item"><a class="page-link" href="error.html">1</a></li>
-                  <li class="page-item"><a class="page-link" href="error.html">2</a></li>
-                  <li class="page-item"><a class="page-link" href="error.html">3</a></li>
+                  <li class="page-item "><a class="page-link bg-dark text-light border border-dark" href="error.html">1</a></li>
+                  <li class="page-item  "><a class="page-link bg-dark text-light border border-dark" href="error.html">2</a></li>
+                  <li class="page-item "><a class="page-link bg-dark text-light border border-dark" href="error.html">3</a></li>
                   <li class="page-item">
-                    <a class="page-link" href="error.html">Next</a>
+                    <a class="page-link text-light bg-dark border border-dark" href="error.html">Next</a>
                   </li>
                 </ul>
               </nav>
@@ -189,7 +192,7 @@
            <div>
              <form class="d-flex mt-4" role="search">
                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-               <div class="btn btn-primary"> 
+               <div class="btn btn-dark"> 
                  <a href="/error.html" class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                   </svg>
@@ -205,19 +208,23 @@
                 </div>
                 <h2 class="text-center text-light mt-5">Categorias</h2>
                 <ul class="categorias">
-                  <li class="my-4"><a href="/bootstrap/galeriaP.html" class="link-light"> Pantalones <span class="badge rounded-pill bg-primary">8</span></a></li>
-                  <li class="mb-4"><a href="/bootstrap/galeriaC.html" class="link-light"> Camisas <span class="badge rounded-pill bg-primary">6</span></a></li>
-                  <li class="mb-4"><a href="/bootstrap/galeriaA.html" class="link-light"> Abrigos <span class="badge rounded-pill bg-primary">9</span></a></li>
+                  <li class="my-4"><a href="/bootstrap/galeriaP.html" class="link-light"> Pantalones <span class="badge rounded-pill bg-dark">8</span></a></li>
+                  <li class="mb-4"><a href="/bootstrap/galeriaC.html" class="link-light"> Camisas <span class="badge rounded-pill bg-dark">6</span></a></li>
+                  <li class="mb-4"><a href="/bootstrap/galeriaA.html" class="link-light"> Abrigos <span class="badge rounded-pill bg-dark">9</span></a></li>
                 </ul>
               </div>
             
+
+
               <div class="d-none d-lg-block col-lg-4">
                 <div class="text-end mb-2">
                   <a href="https://www.rapicuotas.com.ar/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsbnXzyUUB1bP9I1RYPwsUZf8NMNJNOMb-wQ&usqp=CAU" class="rounded" width="200" height="200" alt="..."></a>
                 </div>
 
                 <div class="text-end mb-2">
-                  <a href="https://www.naranjax.com/" target="_blank"><img src="https://www.infozona.com.ar/wp-content/uploads/2021/08/Pagar-tarjeta-naranja.jpeg" class="rounded" width="200" height="200" alt="..."></a>
+                  <a href="https://www.naranjax.com/" target="_blank"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEQEBISEhIQFhIWFxUaFxgWEhcWFRYZFRgWFxUXFRYYHSggGBolGxcXITEhJSkrLi4uFyAzODMsNygtLisBCgoKDg0OGxAQGy8mICUtLS0tLS0vLTArLS4tNy0tLS0tLS0tLS8tKy8tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAcDBQYBAv/EAEAQAAEDAgMDCAYHCQEBAQAAAAEAAhEDIQQSMQVBUQYTImFxcoGRIzNCobGyFDJSYpLB0QcVFlOCotLh8JNjQ//EABsBAQABBQEAAAAAAAAAAAAAAAAGAQIDBAUH/8QANREAAQMBAwoGAQMFAQAAAAAAAQACAxEEITEFEjJBUWFxgaHwEyKRscHR4VKS8RQjM0JTBv/aAAwDAQACEQMRAD8At5ERWq9ERERERERERERERERERERF6F4vQqocFUe0fXVO+/5io6kbR9dU77/mKjqGSaZ4leis0QiIisVyIiIiIiIiIiIiIiIiIiIiIiIiuNERTVecIiIiIiIiIiIiIiIiIiIiIvQvF6FVDgqj2j66p33/ADFR1I2j66p33/MVHUMk0zxK9FZohERFYrkRERVRERFRERERERERERERERERXGiIpqvOFzdN9QPqOl5b9KyA/SKv85oy80OiAB130iCsjNt1QKeZtAGo2k5rpcGMFRzm+kk7oGkXcB1rfZRwHHTfxQ0xEQIiNBpw7FhEThg5brrVG7TZW/bgNnT8Lnxt2rDiBQLWBznEF0ODKpp9AzvAmSslTajnESaQHPNaKbXuGIGWsyn0wDcGZiwuBcFbsU28B5BObEkwJMSYEmNFXw3/AKlQ2iGtRHTn0/OK0uxce6pWMmmecpCpAe5xpwWsFN7TZupmALysOG268UvSGkX5WkXjMX1nUy2J1AAsF0DaYBkAAnUxcoaTT7Ld+4b9VTw3inm29UM8JJ/t3eXWLs2uumsUHKuOGnw22XOp4h5awuoyQGGQR0ssuEg6ai/UN/zV2w9sjPgyQ1zi4Pdzbsoaebbf65zcTaDF4G7a0CYAE3MDU8SvnmmwBlbAMgQIB49qrmPppK0Sw51fDu47qbNt/OhrQFaNu2MQ42ZRALntAfnzjm6YqHNB1gx1a9SM289xsKGXMxoZmPO+kptfnA0LW5jNtGnSFvso4Dy46rDh8GxheQLudmvFui0Q21hDRZWmOT9XdPtXCeChrHqu414bFpau3qrWBxGHB5ulUhzny8ViQBTvct363O7VbDZW0TWfWack03QMpno5nAHNJBPR6iOHGeabTEhttLC3ZwXrWgaACTJtqeJVzWPDgc67Z3y9NpqrJZonMIayh44YbuOvXsFFW9DZ7cRXr0w6KkuLJjKYf0gf6ZP9JWXZuysPWfU6VXIK1KmwjLJ51zgHOkfdmygvxjqNesWxJ51snVuYkOLeBiR4qCHEaEjTQ8NFGzJG0iramrq9adT0CmfhyOBo6go2nzyuu4k610reT9Ew5v0hzdMjcpqTzjqZdpGUZZ09oL6rcm6OZ1MPeH9Mhxy5A1tfmb75i65ltVw0c4a6E79UNRx1J37zvuVXx4af4+vf4VvgTV/ydOh2/K608m2AuphzhmyjpsBcIrU2S0kCJzbuyTKi47ZbX1sIC2rTFQ5CHU2sc0NIaLAXJmZK0jNoPDKjLHOGAkyXANdmAaZsJA8lgdWcSCXOJGhLiSOwq59oipQM2a9hr1FfXcFZHZ5gal999Ltraath23+XG8ro6WwcPVyBj6rczWvl+UgNNbmSDHtSZHkpA5PUxmpgvAdk+swF4hz7NJaLuiBG+xlclnPE6Rru1jslSW7Qfzb2WOctJcZL+h9UAzpKMtEOtmr4OzCvyqyWef8A1kursF149aatdaDWttj9jUaVF1U8+DDMrHBrXtLzUHpLaejkRGqk/wAP06goZG1Gl4w+aBIIql+d/hA6hK5d9RxmSTOskmY0nivptZw0c4WixIsbkdisE8QdoXfz94bleYZqXPvrypdd7311re7N2JTqB5PPmKwpDmwDAM9N8jQLYP2DSqGkCH3FKn6FrYBykmq+fZPHqN1zDMe8UjSBgF2YkEhxMZYJnSCsLKzho5wtFiRYaDsV7bRC0AZnFWOgnc4kSU2Xd05LqqnJ6iSyGVwC2g2GgEy8Gahn2bQevguYx1Hm6tSmNGuc38JI/JfDazho5wtFnHQ3I7JXwSsM0sbwM1tCs0MUjCc59QvF6vEWstpXGiIpqvN0REREREREREREREREREREXoXi9CqhwVR7R9dU77/mKjqRtH11Tvv+YqOoZJpniV6KzRCIiKxXIiL5qPDQSbAAk9gVQKmgQml5X0i1/wC+qH2/7Xf4p++qH8wfhd/itn+gtX/J37XfS1f66zf9G/uH2tgigfvqh/M/td+i+6W1aLnBofc6WI95CobFaQKmN37XfSqLZZyaCRv7m/amIiLWW0iIiKiIiIiuNERTVecIiIiIiIiIiIiIiIiIiIiIvQvF6FVDgqj2j66p33/MVHUjaPrqnff8xUdQyTTPEr0VmiERZKFFz3BrRJJgBdA3kXiSJ6H4j/issVkmlGcxtRy+SsE1tghObI8Arm1Hq1Rdp0Ig+K67+CcT/wDP8R/xWq2hyOxLDcs/Ef8AFbMWTp6+Zp9R9rVflOy0ukCrOozKS07iR5LxbXlNs5+Hr5XxLmh1jI3j8lqVOYnF7A4i848dfVQ+Roa4hpqNXDV0XXYzkjTGzW42lVqOdkY9zSGxBIFQCLjKSfwrkpIuNRp4KdS21iWUTQbWeKJDgWWyw6cw0mDJ81BVWAjG9WXruaFUPa1w9oA+a+1quTlfNRy72kjwNx+fktqvPLXB4Ez49hu4aulFP7LN40LZNoHrr61RERa6zoiIiK40RFNV5wiIiIiIsOJxdOkJqVGMH3nAfFDdeVUAk0CzIufxfLDCU9HPqH7jbeboC0WM5fVDIpUWDreS4+QgfFa77XC3F3pf7LejyZapMGU43e9/Rd6sGJxtKmJfUps7zgPIb1WQ23jsXUbTZVeXOMBrCKY0J0bFoB1K82bsKpWxLqFR/NvaHF2cSZbEjW8zMzpda5t5cQI2VqaX3Cve8LcbkdrATNIBQVIF923hyKsjZ+1aGILhSqBxbrYjXQ3Fx1qaq45G1fo+PNI+1npndcX+ZgHirHWxZZzKypuNaFaWULILNLmNNQQCK97Qi9C8XoWytE4Ko9o+uqd9/wAxUdSNon0tTvu+YqPKhkmmeJXojD5QtlyeqhtdhPFWscXGXoVCCBdrZaJ1mL2VNYeplcD1gq2tkYtz8O1zA1xjQuy++DvUjyU/Ps+bsPvf9qJ5dizbQ1/6h1H4IUn6deOar/gt5ytftJ2druhUaW/abE9hm/atgzEPluYUmtMz6WTES0joiZg+S+sY0PYYIPYZXSwK4oVOftJw2alSqgXY4tPdeP1aPNVo95a48FbfLWob4bmyRVa+HyIa9vSZI1IzACd0jiqmpsJOZ3ktyzuJaQe+zVbJbQA6qI13T1sV6HGQCf8AfBYqjMpncpHNgz1rYVpot1yar5arm7nD3suPdK6ZcPhqvNva77JB8tfcu4mbjRRL/wBBDmztk/UOrfwR6KTZCmzoXR/pPR1/vVERFwF3ERERFcaxYjE02Caj6bBxc4N+K1PLCrUZhHupOc0gtktMOymxgjS5C4PAbKrYmH55BfkN5cDDSCQblsuAndvUqntTo35jW1NK96/ZQux5PbNH4r35oBpvuv7xXcYzlfhKcw41CNzG/m6AtDiv2gOPqqLAOL3Fx/CIjzK1dLk+cpc+o1oETDXEtnmiA6YH1agdYmzSjsPhcK4EOJqSC30rXFhHOFvSp9G7mU5k2bVnctUz2l9akN75rptsVijwBf19qAjffq23x8XynxdTWq4DgyGD+258StWahJkucTxNyfFbfbeLoZHUaTG9CpAcGsghmZpOcDM/NIdcwItIWklaMwJd5nV73rq2cNDPI3N5Ae3fK9ZF8PRrkcsIF62FO2C9zcVQLJzc4yI1uYPuJVmZaNfFNIIbiaMZvv03iCDxEO8D1FV1yd203BuqP5ltSoWgMLvYN5MxNwd0aKJT2pW581w8ipmzSOJvEcItHCy3oZ2xMpjU1I2U+agFcq1WR9olJHlo2gO0nEEfpoSDxurRbzlQw4baJeB7Tag65IJ/uDl3zdp0iAQ6xuLHeqz5R7dONdTcWNY5rA0wZm8zpYXMDrW0w+0i3CU3tguBDDPVP5AeayR2gRySFuib/vvctO2WSSSGAOHnHlN/pfhS7HfuXeUcWx5hpv2EKSFz+yT6Vvj8CugK6cTy4VKj8gAwVQ7RPpanfd8xUaVn2ifS1O+75iosqJv0jxK9AafKF9yrD5E1xVomkSY3QYNr+Vj2yq5ldRyFx2SuG8fyhdPJElJiz9Q6i/2quPlyLPs2f+k15G49aLtHcmcOWsa7nC1jQ0dIDogkgEgAkCXAcMxiDdbKhh2UmNptgDdMSevrKlLk+VO2H0atIDDVquRwcCwZg4HcIGoI8LLvGuoVUTGb/saDb7dblq+VTQHkVGdGDlfGZs3gfdKpvatHJWqNGmYx2G4+K7LauO2lVqVXupYzK9zsrXNflY0kwyA0B0AxK01LZ1cVWPr4WtUpmW1BzZzZXWzU+DmySDpIE2K2YmeHJnlwpSmPexZmTskiDGg14Gl3HWcbumC5shFY0YMHOdlV8jXOdl+jsAcPShraj3uJyAGmYAFwZLrLh8RgHZ382x3N5nZMzm5g2TlDoMZoiVsf1MY0nAcSB7lVbFI7RaTwB+AoK6/YlfPQZxHRPhp7oWjwOCqtqNdzdN+Ug5XuaWu6iJ0XRUc7qtWoWMph+Q5WumHBoDzYDUgFcbLU0Etno17S4EEAEE7KUrvryXZyRHPFP5mODSCCSCBtGPCnEqQiIoipSiIiIra2jhudo1af22OHiRY+cKpKGOq0gWtcWw9r7WcHNDmtIO6ziCrkVS8p8NzWLrt3Zi4dj+kPjHgpHlFpAa8cPn4Ki+Q5AS+J24+hofcdlQK2Ke+A57nAaAuJA7Bu8FBri6kSsFc3XKZpVKkRFBQLC10KTKiuU8Yd2W4IiNd2m7VZXjYsYcBiVhX0HSvebh+U8fPgRbs3KSadNrgCQRJBM3ibGBcOtoRvG/Snh1Vr7Q1lNdb7vVQ1lZQdNxGutogEnr0BXzXqNzSwEb77jJNiNwsvurjXEmOiDHRH1bAjTTQx2ABVoNao58hpmDjXV33RfdegWa9h7YBj3+4rzDV3B2T2HCSPvN0I8HHyCxvqudqSdTc8bmBuUnZFNr6zQ6elItrpb/utW66N13eqqatjzpb6X3br1Y2xj6VnYflK6Fc5sj1zfH4FdGu9ZtHmoPL8Kntpeuqd93xKiEqVtH1tTvu+JUQlRh+keJU8afKElTdj4nm67HdagErxroMq+B/hyNeNRBWKdgljdGdYIV64fEDmc+oDZ8v9LJh8Q17A8fVIJ3HTUW1Wm5H4sVcO2b2v8D+S22DJAjJlA0gQD53B6lLjRQLio1V7MQ05JtrPXMeC0tDAucXCILXQRM23HQf8F0rC7M6QI1DoAmNJOYk26hoV8Na4VD9TIdTABNrA3vCZ1MFWq5pmBNR1SkQARNpkxpcRaQQfFVpjtmupVH0zqxxHkbe5XhU5zPIIy2sXAbriObJ9+9cB+0HBZMSKg0e2fEWPuyrnZUr4Qe3Ufe73ouzkSQeOYz/sLuIv9qri6WHIKlhEUae8vNSpaxgbgiIisV6IiIiuNcB+0jDZatKr9ppae1hke53uXfrnOX2Gz4Mkasc13geifmnwUttbM6F26/0/Cg+TJfDtTDtNPW73oq3oUg7fEETpOW5LrnQAe8L7fTpMJDpLhrOlxui9jGo4ngFHpQSQTAjjGgJAKzudQabS7t01aerrGm+eC48dAK+6k02cXUq6mwDlecNtyiUHBryMuZp3G1pBnqNh5qdTNRwLQALAOsbRmOm7U7tTxusD8RIADQ0CDbWRaZEX03bl8Mc4kxMnc0a+AVC7UqmIuFSADvNcKYgEDbwuX3iKBA6RGaQI3xucOLYAEqIbKX9GcBJsPhab+7zC+alJrSAekIvlIEG9gb+apQi+iyRyDRDqncNntzUaV7lMTBjjFvPwPks1KpBOVsno9Zsb7t+hWZuFqvEZDHasrYie/tYJLZGw0JHrU+janv1iNKzYZ5a9pG4gjtBkKfh9jn2it7hcBTYBACCA6yteTKsYFGtJ43D5PRbzYlSazfH4FdSFy2wo59v9XwK6kLr2fR5qLy48lT+1G+lqd93zFQHLZ7SHpqnfd8xUCrTUWcfOeJU9DfKFFcV8kr6esRKyLESrF/ZtjrGmdx+KsCo5rRLi0DibaquNjYZmHNF7RlLg0PuTJLdbm1+HFdjypwBxeArU2gF5ZmYDvewh7B4uAClsTHBjA430AJ6KEWhzHzuc3Amu/etjTxdJzsralMu4B4JtrZSWtVVbA5MYmnjaWKGDq0i11MRzmHawMILK2ZrTJsSQB4q1t/alLhXGgru3XE1ptWORrWuo01Cxc83NlzNzcJE+XgVznL/B58LmAuxwPgeifiD4LR7U5NYuoMXTYDDnE0XGo3cZaLumIgHxXT7HwNb9306GIHpRS5t/SDpgZQ6RqSACtRhNojkY9ubeWitbxQGtTSorXDZvW4Q2yTskY8OAobqcxdXVcVVCL7r0i17mnVpIPaDBXwonSmKnYIOCIiIiIiIiuNR9oYYVqNSkfbY5vmCAVIQqakVuK85BINQqLcCDB139u9eAK0avIzCuqPqHnDmJMZgGgm5iBOvErMOSWF+xHYuU2wP1kKTPy5Di1pJ5AfPsqsZQc7Rs+E/BTKGzqp0kA6317QFZH8L0NxeP6l7/AAzS+1V/GVlbYANa0ZMtSu0QB1PW7ouDpbEJ+s8jh1KZQ2PSH1hJ612H8NUvtVfxlarlTyajC1X0alcVGDOIeQSG3eLfdnyCv/pswVFFqi0vneGPcbzS83X7sOi1NWixv1WheSN3/f8AfmuKZUrH/wDfEf8Aq79VlYKn8+v/AOjv1WqZWhdU5FnGsdfpWLhMfTFIB85wS0GCYpvLS4zxADgO8tgcdScOk4wXl0NaRIkmH7joAFw/JiqxtYCu+o6m6xLnE5Dudfdx/wBKyaexqI3T23W1A7xW1acMVyrZZnWZ+a8Y3gjDsa1r8FWa/FMc3e29ouGkG3gF0YUahg6bDLWtB4gCVJC2o2luK0XmqqPaPrqnff8AMVHIUjaPrqnff8xUdRCTTPEr0RmiFHrUlhweENSqynxIns1PulTl2HJnk8WsNZ46Tx0RvDeJ6z8O1bdhjM0obqxPD84Ln5RmEEJfrwHH8YndxWPEfVIG648Lj4Ltth4nPRabaf7/AFXIY3Dlq2vI6tLXU7WJF+Go9yl7rwoMLrlLNCqZzFrbWzY2qRumWtDd03mZHXK2uCxOZt3Ui4fYcXCJgXNz2qHgsM1z6gDwHNIDmsDRlm/2QYtbsWXEgUqNaqznajmsecucy4saSGtzWbOnisVFWiyY2oC4ekrty6imwkOmIk5Dp1HjKYSs1oFMc86Z6T9b3MzBtwiy0PI3b9LalN7n0WtqU8kt5znBlqNzMdMDW4gjVpXR0cLTHSbSaHd0A+f/AGqq5pYc12KqQQaFVny2wXNYp5A6LwHjxsfePetCrA/aThW83SqaODi3wIJ+IVfqJ5Qj8O0O2G/1/NVOMlTeLZGHWPKeWHSiIiLSXRREREVxoiKarzhEREREREREIRERVDyo2KcLiXNA9G7pUz1OOna3Ty4rWsare2/sduLolhs8XY77LuvqOh/0qtxGEfSe5lRpa9pgg/8AXHWuJbITE6owOH19blM8nW8WmKjj523HfsPPXv5L4Y1dZyb5SuogU6supj6pF3N6utvVu9y5hjVIY1aTJ3xOzmG9ZbTEyZmY8VHd43/xgrVwuKZVbmpua4dR+I3FZgqww9RzDLXOaeIJB8wttR25iWj1hPa1p95ErfblmMCsjTyofcinBR6XJDq/23DnUewIPFc5tH11Tvv+Yr4w+GfUcGsa5zjuaJPuVi0eTuEMPNKXOuZc4iTc2mNVtMPhmUxFNlNo4NaB8FYMkvc4l7gBuvPWi6D8vRtbSNhJ30A6Ek9Krl+T/JTIRUrwSLinqB1vO89WnautRF14YGQtzWD88VwLTapbQ/PkP0OAUbE4RrxcLn8XTdgSa4cMlg4aHW0cSune8NBJIAAkkmAANSSq65U7a+k1MrZ5tmn3jvcfy6u1W2m2CzMrrOA71bVlsFhNqkpg0Yn44/yuh/jnDtJfFQuI0l2Xdo2YBssFT9o9P2KTj4LiMo4L1cp2WZDgwdftdwZAg1ud0+l0WD5Vto5/o2DoUc5l2VrGZjxdlEnU+ayVeWuJOmUeBXMosL8r2l2BA4AfNVsMyJYxi0niT8UU/ae16uIjnHTGigIi0JZnyuznmpXShhZCzMjFBsCIiLGsiIiIiuNERTVecIiIiIiIiIiIiItVtzYlPFNv0ag+q8C/Y7iFtUVr2Ne3NcKhXxyOjcHsNCO/5VX43ZdTDuy1GxwOrXd071jY1WhXoNqNLXta5p3ESFocZyWYb0nFv3XXHgdR71w7TkyQXxXjZr+j6hd6HKzHiktx26vsd3rlWNUhrVPqbDrs9iRxaQfdr7li+iPGrHjwK4s8MrAQ5pHIrbE7H6Lgea7ah9RvYPgsij08TTa1svpiw1qNG7tUTFbfwtPWsw9TJef7ZU2MjWipIHNRhkMkhoxpPAErZrBjMXTosL6jg1o3nf1Abz1BcttDlqLihT/qf+TR+q5TG46pWdmqPc49eg6gNAOxc6fKkTLo/Men55Xb11bNkSZ5rL5R6u+hzv3Lb8ouUb8R0GS2lw3v4F36LQIi4Msr5XZzzUqUQwMhYGRig7v4oiIsayoiIiIiIiIiIiIiIiK40RFNV5wiIiIiIiIiIiIiIiIiIiIiBF6FUGiocFUm0Z52pf23/MVGUjaPrqnff8xUdQuQDPPEr0dhOaEREVqqiIiIiIiIiIiIiIiIiIiIiIiIrjREU1XnCIiIiIiIiIiIiIiIiIiIiL0LxehVQ4Ko9o+uqd9/zFR1I2j66p33/MVHUMk0zxK9FZohERFYrkRERERERERERERERERERERERFcaIimq84RERERERERERERERERERERehEVUOCqPaPrqnff8xUdEUMk0zxK9FZohERFYrkRERERERERERERERERERERERF//2Q==" class="rounded" width="200" height="200" alt="..."></a>
+
+                  <!-- <a href="https://www.naranjax.com/" target="_blank"><img src="https://www.infozona.com.ar/wp-content/uploads/2021/08/Pagar-tarjeta-naranja.jpeg" class="rounded" width="200" height="200" alt="..."></a> -->
                 </div>
                 
                 <div class="text-end mb-2">
@@ -236,17 +243,18 @@
      </main>
 
       <!-- Termina contenido principal-->
+
       <!-- Comienza el footer-->
 
      <footer class=" bg-dark w-100 py-3 flex-shrink-0 pe-0">
        <div class="container py-3">
-         <div class="row gy-4 gx-5">
+         <div class="row ">
             <div class="col-12 col-md-6 col-lg-3">
-              <a href="/index.html"> <img src="/img/thepoint-s.png" alt="the point"></a>
+              <a href="/index.html"> <img src="/img/thepoint-s-sf.png" alt="the point"></a>
                 <p class="small text-white">Una empresa comprometida con tu propio estilo personal.</p>
-                <p class="small text-white mb-0">&copy; Copyrights. Todos los derechos reservados. <a class="text-primary none" href="#">thepoint.com.ar</a></p>
+                <p class="small text-white mb-0">&copy; Copyrights. Todos los derechos reservados. <a class="text-primary none" href="/index.html">thepoint.com.ar</a></p>
             </div>
-            <div class="col-12 d-none col-md-none d-lg-block col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
               <h5 class="text-white mb-2">Nuestros productos</h5>
                 <ul class="list-unstyled text-muted">
                   <li><a href="/bootstrap/galeriaP.html" class="none">Pantalones</a></li>
@@ -254,7 +262,7 @@
                   <li><a href="/bootstrap/galeriaA.html" class="none">Abrigos</a></li>
                 </ul>
             </div>
-            <div class="col-12 d-none col-md-none d-lg-block col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
               <h5 class="text-white mb-2">Enlaces rapidos</h5>
                 <ul class="list-unstyled text-muted">
                   <li><a href="/error.html" class="none">Nosotros</a></li>
@@ -263,7 +271,7 @@
                   <li><a href="/error.html" class="none">Ser revendedor</a></li>
                 </ul>
             </div>
-            <div class="col-12 d-none d-md-block col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-3">
               <h5 class="text-white mb-3">Seguinos!</h5>
                 <p class="small text-white">Seguinos en nuestras redes y enterate de todas las ofertas y promociones!</p>
                 <a href=""></a>
