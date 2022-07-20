@@ -46,7 +46,9 @@ body {
   background-color: #08080823;
 }
 
-
+.main {
+  min-height: 100vh;
+}
 
 .botonsito {
   position: fixed;
