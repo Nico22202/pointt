@@ -1,9 +1,9 @@
+
 body {
   background-image: url(/img/fondo.jpeg);
   width: 100%;
-  height: 100%;
   background-size: cover;
-  margin-top: 65px;
+  padding-top: 65px;
   background-repeat: no-repeat;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;  
 }
@@ -13,12 +13,10 @@ body {
 }
 
 .fondo_login{
-
-  height: 750px;
-  background-repeat: no-repeat;
+  height: 100%;
   background: url(/img/Portada-Tino\ \(2\).jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .transparencia{
@@ -79,18 +77,9 @@ text-decoration: none;
   height: 100%;
 }
 
-.galeriasss {
-  margin-top: 70px;}
 
 
 .contacto{
-
   margin-top: 90px;
-}
 
-.futer {
-  width: 100%;
-  height:100%;
-  position: relative;
- 
 }
